@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --primary-color: #FFFFFF;
+    --secondary-color: #14141C;
+    --accent-color: #1644BD;
+    --theme-color: #EE7B11;
+    --text-color:#9B8996;
+}
+
+/* header */
+header{
+    background-image: linear-gradient(#FFFFFF 65%,#1644BD 35%);
+    
+}
+nav{
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+.navbar-brand{
+    width: 120px;
+    height: 47px;
+    display: inline-block;
+}
+
+.navbar-toggler{
+    height: max-content;
+    border: 2px solid var(--theme-color);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar-toggler:hover{
+    
+    background-color: transparent;
+}
+.navbar-toggler:focus{
+    
+    box-shadow: none;
+}
+.navbar-toggler i{
+    color: var(--theme-color);
+}
+
+#navbarSupportedContent{
+    width: 100vw;
+    left: 0;
+    top: 56px;
+    background-color: #14141c4c;
+}
+
+.nav-link{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+ul.dropdown-menu{
+    max-width: 250px;
+}
+ul.dropdown-menu li:not(:last-child){
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+
+nav form{
+    max-width: 100px;
+}
+nav form input{
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+}
+nav form button.btn{
+    padding: 0;
+}
+nav form button i{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+.button-sign button{
+    background-color: var(--theme-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+.button-sign button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+/* -/ header */
+
+
+
+
+/* sm */
+@media screen and (min-width: 577px){
+    .position-sm-static{
+        position: static !important;
+    }
+    .position-sm-relative{
+        position: relative !important;
+    }
+    .position-sm-fixed{
+        position: fixed !important;
+    }
+    .position-sm-absolute{
+        position: absolute !important;
+    }
+    .position-sm-sticky{
+        position: sticky !important;
+    }
+
+    .upcomming-meta button{
+        font-size: 1.2rem;
+    }
+}
+/* md */
+@media screen and (min-width: 769px){
+    .position-md-static{
+        position: static !important;
+    }
+    .position-md-relative{
+        position: relative !important;
+    }
+    .position-md-fixed{
+        position: fixed !important;
+    }
+    .position-md-absolute{
+        position: absolute !important;
+    }
+    .position-md-sticky{
+        position: sticky !important;
+    }
+   
+}
+/* lg */
+@media screen and (min-width: 993px){
+    .position-lg-static{
+        position: static !important;
+    }
+    .position-lg-relative{
+        position: relative !important;
+    }
+    .position-lg-fixed{
+        position: fixed !important;
+    }
+    .position-lg-absolute{
+        position: absolute !important;
+    }
+    .position-lg-sticky{
+        position: sticky !important;
+    }
+
+
+    .button-sign button{
+        font-size: 1.6rem;
+    }
+    #navbarSupportedContent{
+        width: max-content;
+        background-color: transparent;
+    }
+    nav form input{
+        margin-right: 5px;
+        width: 100%;
+        background-color: transparent;
+        color: var(--text-color);
+    }
+
+}
+/* xl */
+@media screen and (min-width: 1200px){
+    .position-xl-static{
+        position: static !important;
+    }
+    .position-xl-relative{
+        position: relative !important;
+    }
+    .position-xl-fixed{
+        position: fixed !important;
+    }
+    .position-xl-absolute{
+        position: absolute !important;
+    }
+    .position-xl-sticky{
+        position: sticky !important;
+    }
+}
+/* xxl */
+@media screen and (min-width: 1401px){
+    .position-xxl-static{
+        position: static !important;
+    }
+    .position-xxl-relative{
+        position: relative !important;
+    }
+    .position-xxl-fixed{
+        position: fixed !important;
+    }
+    .position-xxl-absolute{
+        position: absolute !important;
+    }
+    .position-xxl-sticky{
+        position: sticky !important;
+    }
+}
