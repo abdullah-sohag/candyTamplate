@@ -5,7 +5,7 @@ html{
 }
 
 :root{
-    --primary-color: #FFFFFF;
+    --primary-color: #F9F9FB;
     --secondary-color: #14141C;
     --accent-color: #1644BD;
     --theme-color: #EE7B11;
@@ -49,7 +49,7 @@ nav{
     width: 100vw;
     left: 0;
     top: 56px;
-    background-color: #14141c4c;
+    background-color: var(--primary-color);
 }
 
 .nav-link{
@@ -94,6 +94,40 @@ nav form button i{
     color: var(--primary-color);
 }
 
+/* --- */
+.hero{
+    height: 100vh;
+}
+.content-hero{
+    display: flex;
+    background-image: url('assetes/images/svg/leftside-backlayer-icons.svg');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.content-hero h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.content-hero p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.content-hero button{
+    background-color: var(--theme-color);
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 10px;
+    width: max-content;
+}
+.content-hero button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
 
 /* -/ header */
 
@@ -138,6 +172,11 @@ nav form button i{
     }
     .position-md-sticky{
         position: sticky !important;
+    }
+
+
+    header{
+        background-image: linear-gradient(90deg,#FFFFFF 65%,#1644BD 35%);
     }
    
 }
