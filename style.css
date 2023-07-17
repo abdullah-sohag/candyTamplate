@@ -105,27 +105,27 @@ nav form button i{
     background-size: contain;
     background-repeat: no-repeat;
 }
-.content-hero h2{
+.content-hero h2,.theme-head{
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 5rem;
     color: var(--secondary-color);
 }
-.content-hero p{
-    font-size: 1.8rem;
+.content-hero p,.theme-text{
+    font-size: 2.5rem;
     font-weight: 400;
     color: var(--text-color);
 }
-.content-hero button{
+.content-hero button,.them-btn{
     background-color: var(--theme-color);
     color: var(--primary-color);
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 600;
-    padding: 8px 20px;
+    padding: 15px 30px;
     border-radius: 10px;
     width: max-content;
 }
-.content-hero button:hover{
+.content-hero button:hover,.them-btn:hover{
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
@@ -140,6 +140,45 @@ nav form button i{
 
 /* -/ header */
 
+/* main */
+
+/* working process */
+#working-process{
+    background-image: url('assetes/images/image/dot-shape.png'),url('assetes/images/svg/service-backlayer.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-size: auto,contain;
+    background-position: top right,center center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#working-process .card-content{
+    padding-top: 70px;
+    display: flex;
+}
+#working-process .card{
+    padding: 55px 60px;
+}
+#working-process .card .card-title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 15px 0;
+    margin-bottom: 8px;
+}
+#working-process .card .card-subtitle{
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+#working-process .card p{
+   font-size: 1.8rem;
+}
+#working-process .card img{
+    width: 100px;
+    height: 100px;
+}
+/* -/working process */
+
+/* -/ main */
 
 
 
@@ -161,9 +200,7 @@ nav form button i{
         position: sticky !important;
     }
 
-    .upcomming-meta button{
-        font-size: 1.2rem;
-    }
+    
     .image-hero{
         min-height: 100%;
     }
@@ -190,7 +227,7 @@ nav form button i{
     header{
         background-image: linear-gradient(90deg,#FFFFFF 65%,#1644BD 35%);
     }
-    .content-hero h2{
+    .content-hero h2,.theme-head{
         font-size: 4rem;
     }
    
@@ -227,7 +264,7 @@ nav form button i{
         background-color: transparent;
         color: var(--text-color);
     }
-    .content-hero h2{
+    .content-hero h2,.theme-head{
         font-size: 6rem;
         line-height: 6rem;
     }
@@ -252,7 +289,7 @@ nav form button i{
     }
 
 
-    .content-hero h2{
+    .content-hero h2,.theme-head{
         font-size: 7.5rem;
         line-height: 7rem;
     }
