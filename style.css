@@ -11,6 +11,7 @@ html{
     --theme-color: #EE7B11;
     --text-color:#9B8996;
     --extera-color:#2753c9;
+    --acrodion-bg: #F1F1F5;
 }
 
 /* header */
@@ -273,6 +274,10 @@ nav form button i{
 #pricingb{
     padding-top: 100px;
     padding-bottom: 100px;
+    background-image: url('assetes/images/svg/price-plan-background-icons.svg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .tag-section{
     font-weight: 600;
@@ -441,6 +446,44 @@ nav form button i{
 }
 
 /* -/pricing section */
+
+/* faq */
+#faq{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.accordion-item{
+    border: 0;
+    background-color: var(--acrodion-bg);
+}
+.accordion .accordion-item:first-child{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.accordion-header button{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    padding: 25px 30px;
+    background-color: var(--acrodion-bg);
+}
+.accordion-button:not(.collapsed){
+    color: var(--secondary-color);
+    background-color: var(--acrodion-bg);
+}
+.accordion-header button:focus{
+    outline: none;
+    border: 0;
+    box-shadow: none;
+}
+.accordion-body{
+    font-size: 2.2rem;
+    color: var(--text-color);
+    line-height: 30px;
+    padding: 0 30px 25px;
+}
+/* -/faq */
 
 /* -/ main */
 
