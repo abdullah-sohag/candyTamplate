@@ -6,7 +6,7 @@
     <!-- <script src="https://kit.fontawesome.com/94ecb70494.js" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/94ecb70494.js" crossorigin="anonymous"></script>
     
-
+    <link rel="stylesheet" href="soplideSlider/splide.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Candy</title>
@@ -270,25 +270,18 @@
 
       </div>
 
+        
         <div class="row">
           <div class="col">
-
-            <div class="slide-content">
-              <div class="slide-items gap-3 gap-md-4 gap-lg-5">
-
-                <div class="item">
-                  <img class="w-100 h-100" src="assetes\images\image\Portfolio.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img class="w-100 h-100" src="assetes\images\image\Portfolio.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img class="w-100 h-100" src="assetes\images\image\Portfolio.jpg" alt="">
-                </div>
-
+            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+              <div class="splide__track">
+                <ul class="splide__list gap-3 gap-md-4 gap-lg-5">
+                  <li class="splide__slide item"><img class="w-100 h-100" src="assetes\images\image\Portfolio.jpg" alt="image"></li>
+                  <li class="splide__slide item"><img class="w-100 h-100" src="assetes\images\image\Portfolio.jpg" alt="image"></li>
+                  <li class="splide__slide item"><img class="w-100 h-100" src="assetes\images\image\Portfolio.jpg" alt="image"></li>
+                </ul>
               </div>
             </div>
-
           </div>
         </div>
     </section>
@@ -497,6 +490,8 @@
     
 
     <script src="bootstrap.min.js"></script>
+    
+    <script src="soplideSlider/splide.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

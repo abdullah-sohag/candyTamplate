@@ -255,7 +255,12 @@ nav form button i{
 #product-doc .card .card-text{
     font-size: 1.8rem;
 }
+.slide-content::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
 .slide-content{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     overflow: scroll;
 }
 .slide-content .slide-items{
@@ -263,8 +268,10 @@ nav form button i{
     justify-content: center;
     align-items: center;
     width: min-content;
+    cursor: grab;
+    
 }
-.slide-content .slide-items .item{
+ .item{
     width: 300px;
     height: 200px;
 }
@@ -485,6 +492,8 @@ nav form button i{
 }
 /* -/faq */
 
+
+
 /* -/ main */
 
 
@@ -543,7 +552,7 @@ nav form button i{
     #services .image-body{
         height: 520px;
     }
-    .slide-content .slide-items .item{
+    .item{
         width: 370px;
         height: 250px;
     }
@@ -585,7 +594,7 @@ nav form button i{
         font-size: 6rem;
         line-height: 6rem;
     }
-    .slide-content .slide-items .item{
+     .item{
         width: 488px;
         height: 323px;
     }
