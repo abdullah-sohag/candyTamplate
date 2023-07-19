@@ -571,6 +571,56 @@ nav form button i{
 /* -/ main */
 
 
+/* footer */
+footer{
+    background-color: var(--accent-color);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer-1 img{
+    width: 151px;
+    height: 32px;
+}
+.footer-text{
+    color: var(--light-accent);
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.contact{
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.contact span{
+    color: var(--light-accent);
+}
+.contact a{
+    color: var(--theme-color);
+    text-decoration: none;
+}
+h3.footer-head{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.link a{
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.submit input{
+    font-size: 2.2rem;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+.copyright-text{
+    font-size: 2.5rem;
+    font-weight: 550;
+    text-align: center;
+    color: var(--light-accent);
+}
+/* -/footer */
+
 
 /* sm */
 @media screen and (min-width: 577px){
