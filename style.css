@@ -8,6 +8,7 @@ html{
     --primary-color: #F9F9FB;
     --secondary-color: #14141C;
     --accent-color: #1644BD;
+    --light-accent: #92ACF2;
     --theme-color: #EE7B11;
     --text-color:#9B8996;
     --extera-color:#2753c9;
@@ -258,19 +259,7 @@ nav form button i{
 .slide-content::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
-.slide-content{
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    overflow: scroll;
-}
-.slide-content .slide-items{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: min-content;
-    cursor: grab;
-    
-}
+
  .item{
     width: 300px;
     height: 200px;
@@ -491,6 +480,91 @@ nav form button i{
     padding: 0 30px 25px;
 }
 /* -/faq */
+
+/* join us */
+#joinUs{
+    background-color: var(--accent-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.col-head p{
+    color: var(--theme-color);
+}
+.col-head h2{
+    color: var(--primary-color);
+}
+.testi-monial-slide{
+    padding: 90px 150px 30px 0;
+    /* border-top: 1px solid var(--light-accent); */
+    position: relative;
+}
+.testi-monial-slide::after{
+    content: '';
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    height: 2px;
+    top: 30px;
+    background-color: var(--light-accent);
+}
+.testimonial-discription{
+    margin-bottom: 24px;
+    font-size: 2.4rem;
+    color: var(--light-accent);
+}
+.testi-monial-profile-content img{
+    width: 55px;
+    background-color: var(--theme-color);
+}
+.testimonial-profile-name strong{
+    font-size: 2rem;
+    color: var(--acrodion-bg);
+}
+.testimonial-profile-name span{
+    font-size: 1.8rem;
+    color: var(--acrodion-bg);
+}
+
+.contact-form label{
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.contact-form input:not(.form-check-input){
+    font-size: 2rem;
+    padding: 16px;
+    border-radius: 15px;
+}
+.form-check p{
+    margin-left: -1.5rem;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+.form-check label{
+    color: var(--theme-color);
+}
+#gridCheck{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+#gridCheck:active,#gridCheck:checked{
+    /* accent-color: var(--theme-color); */
+    background-color: var(--theme-color);
+}
+.brand-image{
+    width: 95px;
+    height: 33px;
+    display: block;
+    margin: auto;
+}
+.brand-para{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+/* -/join us */
 
 
 
