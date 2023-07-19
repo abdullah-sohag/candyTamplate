@@ -25,7 +25,7 @@ nav{
     color: var(--secondary-color);
 }
 .navbar-brand{
-    width: 120px;
+    width: 162px;
     height: 47px;
     display: inline-block;
 }
@@ -56,9 +56,12 @@ nav{
 }
 
 .nav-link{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--secondary-color);
+}
+.nav-link:hover,.link a:hover{
+    color: var(--theme-color);
 }
 ul.dropdown-menu{
     max-width: 250px;
@@ -72,7 +75,7 @@ nav form{
     max-width: 100px;
 }
 nav form input{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     border: none;
     outline: none;
     background-color: var(--text-color);
@@ -82,8 +85,8 @@ nav form button.btn{
     padding: 0;
 }
 nav form button i{
-    font-size: 1.6rem;
-    color: var(--primary-color);
+    font-size: 1.8rem;
+    color: var(--accent-color);
 }
 .button-sign button{
     background-color: var(--theme-color);
@@ -96,6 +99,8 @@ nav form button i{
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
+
+
 
 /* --- */
 .hero{
@@ -721,6 +726,9 @@ h3.footer-head{
      .item{
         width: 488px;
         height: 323px;
+    }
+    nav form button i{
+        color: var(--primary-color);
     }
 
 }
